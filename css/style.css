@@ -1,0 +1,60 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12pt;
+}
+button {
+	width: 100%;
+}
+#opcoes {
+	margin: 0 auto;
+}
+.babel {
+	position: relative;
+	top: 0;
+	left: 50%;
+	margin-left: -135px;
+}
+.babel, .espaco, .vazio {
+	background-color: black;
+}
+.row_left, .row_center, .row_right {
+	float: left;
+}
+.row_left, .row_center, .row_right {
+	margin-left: 7px;
+}
+.babel {
+	display: inline-block;
+	width: 270px;
+	height: 197px;
+	overflow: hidden;
+}
+.quadrado {
+	width: 80px;
+	height: 50px;
+}
+.espaco {
+	width: 80px;
+	height: 12px;
+}
+.azul {
+	background-color: blue;
+}
+.verde {
+	background-color: #23ca07;
+}
+.pink {
+	background-color: #ff00f6;
+}
+.vermelho {
+	background-color: #f00000;
+}
+.amarelo {
+	background-color: #ffe222;
+}
+.branco {
+	background-color: #fff;
+}if (e.target.type !== 'radio') {
+	$checkbox = $(':radio', this);
+	$checkbox.trigger('click');
+}
